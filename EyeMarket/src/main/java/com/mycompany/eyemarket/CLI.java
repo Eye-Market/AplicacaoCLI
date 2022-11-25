@@ -50,12 +50,9 @@ public class CLI {
         }
 
         if (!isExisteTotem) {
-            DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-                Date date = new Date();
-                String dataAtual = dateFormat.format(date);
             System.out.println("\nId Cadastrato com sucesso!");
             banco.execute(
-                    String.format("INSERT INTO Totem VALUES(%d,'%s','%s','%s',1, 'normal');", idMaquina, processador, sistemaOperacional, dataAtual)
+                    String.format("INSERT INTO Totem VALUES(%d,'%s','%s','0000-00-00', 1, 'normal');", idMaquina, processador, sistemaOperacional)
             );
         }
 
