@@ -52,7 +52,7 @@ public class CLI {
         if (!isExisteTotem) {
             System.out.println("\nId Cadastrato com sucesso!");
             banco.execute(
-                    String.format("INSERT INTO Totem VALUES(%d,'%s','%s','0000-00-00',1);", idMaquina, processador, sistemaOperacional)
+                    String.format("INSERT INTO Totem VALUES(%d,'%s','%s','0000-00-00',1, 'normal');", idMaquina, processador, sistemaOperacional)
             );
         }
 
