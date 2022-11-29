@@ -1,0 +1,7 @@
+
+Incidente detectado, Memoria Cheia!
+Id Maquina: 1
+Processador: AMD Ryzen 5 1600 Six-Core Processor            
+Sistema Operaciona: Windows
+Data de instalacao: 2022-11-29
+Estado da máquina: critico

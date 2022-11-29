@@ -1,0 +1,9 @@
+com\mycompany\eyemarket\CLI.class
+com\mycompany\eyemarket\Log.class
+com\mycompany\eyemarket\Conexao.class
+com\mycompany\eyemarket\Totem.class
+com\mycompany\eyemarket\Usuario.class
+com\mycompany\eyemarket\CLI$1.class
+com\mycompany\eyemarket\AppSlack.class
+com\mycompany\eyemarket\Slack.class
+com\mycompany\eyemarket\DockConexao.class
